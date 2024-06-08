@@ -2,29 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rap Kings - Canciones</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Canciones</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Rap Kings</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Canciones</a></li>
-        <li><a href="#">Conciertos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <h2>Canciones</h2>
-    <div id="song-list"></div>
-  </main>
-
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Reproductor de Canciones</h1>
+        <div class="playlist" id="playlist">
+            <!-- Lista de canciones se agregará aquí con JavaScript -->
+        </div>
+        <audio controls id="audioPlayer" class="audio-player">
+            <source src="" type="audio/mpeg">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
